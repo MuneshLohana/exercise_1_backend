@@ -13,9 +13,9 @@ app.use(cors()); // Enable CORS for all routes
 // PostgreSQL configuration
 const pool = new Pool({
     user: 'postgres',
-    host: 'tenfortydb.cdozqw4o4jma.us-east-2.rds.amazonaws.com',
+    host: 'localhost',
     database: 'demo',
-    password: 'T3nF0rty',
+    password: 'demo',
     port: 5432,
 });
 // Auther Munesh Lohana
